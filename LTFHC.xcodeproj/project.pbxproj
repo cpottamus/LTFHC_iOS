@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF27A6721BD68C6600AE7874 /* UIButton+LTFHC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF27A6711BD68C6600AE7874 /* UIButton+LTFHC.swift */; settings = {ASSET_TAGS = (); }; };
+		EF27A6761BD68D6D00AE7874 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF27A6751BD68D6D00AE7874 /* Constants.swift */; settings = {ASSET_TAGS = (); }; };
+		EF27A6791BD68DDE00AE7874 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF27A6781BD68DDE00AE7874 /* DataStore.swift */; settings = {ASSET_TAGS = (); }; };
+		EF27A67F1BD7362800AE7874 /* BadgedBarButtonItem+LTFHC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF27A67E1BD7362800AE7874 /* BadgedBarButtonItem+LTFHC.swift */; settings = {ASSET_TAGS = (); }; };
+		EF27A6811BD7EB0B00AE7874 /* ChooseLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF27A6801BD7EB0B00AE7874 /* ChooseLanguage.swift */; settings = {ASSET_TAGS = (); }; };
+		EF27A6831BD7EB1B00AE7874 /* PatientVillage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF27A6821BD7EB1B00AE7874 /* PatientVillage.swift */; settings = {ASSET_TAGS = (); }; };
+		EF95DAF61BC86CE500CE9D35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF95DAF51BC86CE500CE9D35 /* AppDelegate.swift */; };
+		EF95DAF81BC86CE500CE9D35 /* LTFHCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF95DAF71BC86CE500CE9D35 /* LTFHCViewController.swift */; };
+		EF95DAFE1BC86CE500CE9D35 /* LTFHC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF95DAFC1BC86CE500CE9D35 /* LTFHC.xcdatamodeld */; };
+		EF95DB001BC86CE500CE9D35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF95DAFF1BC86CE500CE9D35 /* Assets.xcassets */; };
+		EF95DB0E1BC86CE500CE9D35 /* LTFHCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF95DB0D1BC86CE500CE9D35 /* LTFHCTests.swift */; };
+		EF95DB191BC86CE500CE9D35 /* LTFHCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF95DB181BC86CE500CE9D35 /* LTFHCUITests.swift */; };
+		EFE284F01BEBE5E700610280 /* SelectVillage copy 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284E11BEBE5E700610280 /* SelectVillage copy 2.swift */; settings = {ASSET_TAGS = (); }; };
+		EFE284F11BEBE5E700610280 /* SelectVillage copy 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284E21BEBE5E700610280 /* SelectVillage copy 3.swift */; settings = {ASSET_TAGS = (); }; };
+		EFE284F21BEBE5E700610280 /* SelectVillage copy 4.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284E31BEBE5E700610280 /* SelectVillage copy 4.swift */; settings = {ASSET_TAGS = (); }; };
+		EFE284F31BEBE5E700610280 /* SelectVillage copy 5.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284E41BEBE5E700610280 /* SelectVillage copy 5.swift */; settings = {ASSET_TAGS = (); }; };
+		EFE284F41BEBE5E700610280 /* SelectVillage copy 6.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284E51BEBE5E700610280 /* SelectVillage copy 6.swift */; settings = {ASSET_TAGS = (); }; };
+		EFE284F51BEBE5E700610280 /* SelectVillage copy 7.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284E61BEBE5E700610280 /* SelectVillage copy 7.swift */; settings = {ASSET_TAGS = (); }; };
+		EFE284F61BEBE5E700610280 /* TestResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284E71BEBE5E700610280 /* TestResult.swift */; settings = {ASSET_TAGS = (); }; };
+		EFE284F71BEBE5E700610280 /* OtherTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284E81BEBE5E700610280 /* OtherTest.swift */; settings = {ASSET_TAGS = (); }; };
+		EFE284F81BEBE5E700610280 /* TestDone.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284E91BEBE5E700610280 /* TestDone.swift */; settings = {ASSET_TAGS = (); }; };
+		EFE284F91BEBE5E700610280 /* PatientWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284EA1BEBE5E700610280 /* PatientWeight.swift */; settings = {ASSET_TAGS = (); }; };
+		EFE284FA1BEBE5E700610280 /* PatientHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284EB1BEBE5E700610280 /* PatientHeight.swift */; settings = {ASSET_TAGS = (); }; };
+		EFE284FB1BEBE5E700610280 /* PatientAge.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284EC1BEBE5E700610280 /* PatientAge.swift */; settings = {ASSET_TAGS = (); }; };
+		EFE284FC1BEBE5E700610280 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284ED1BEBE5E700610280 /* Menu.swift */; settings = {ASSET_TAGS = (); }; };
+		EFE284FD1BEBE5E700610280 /* ChooseGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284EE1BEBE5E700610280 /* ChooseGender.swift */; settings = {ASSET_TAGS = (); }; };
+		EFE284FE1BEBE5E700610280 /* PatientName.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284EF1BEBE5E700610280 /* PatientName.swift */; settings = {ASSET_TAGS = (); }; };
+		EFE285021BEBEE5300610280 /* backArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = EFE285011BEBEE5300610280 /* backArrow.png */; settings = {ASSET_TAGS = (); }; };
+		EFE285051BEBF3BE00610280 /* LTFHCNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE285041BEBF3BE00610280 /* LTFHCNavigationBar.swift */; settings = {ASSET_TAGS = (); }; };
+		EFE285071BEC071800610280 /* forwardArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = EFE285061BEC071800610280 /* forwardArrow.png */; settings = {ASSET_TAGS = (); }; };
+		EFE285091BED137A00610280 /* UITextField+LTFHC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE285081BED137A00610280 /* UITextField+LTFHC.swift */; settings = {ASSET_TAGS = (); }; };
+		EFE2850C1BED1D5B00610280 /* man.png in Resources */ = {isa = PBXBuildFile; fileRef = EFE2850A1BED1D5B00610280 /* man.png */; settings = {ASSET_TAGS = (); }; };
+		EFE2850D1BED1D5B00610280 /* woman.png in Resources */ = {isa = PBXBuildFile; fileRef = EFE2850B1BED1D5B00610280 /* woman.png */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF95DB0A1BC86CE500CE9D35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF95DAEA1BC86CE500CE9D35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF95DAF11BC86CE500CE9D35;
+			remoteInfo = LTFHC;
+		};
+		EF95DB151BC86CE500CE9D35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF95DAEA1BC86CE500CE9D35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF95DAF11BC86CE500CE9D35;
+			remoteInfo = LTFHC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF27A6711BD68C6600AE7874 /* UIButton+LTFHC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+LTFHC.swift"; sourceTree = "<group>"; };
+		EF27A6751BD68D6D00AE7874 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EF27A6781BD68DDE00AE7874 /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		EF27A67E1BD7362800AE7874 /* BadgedBarButtonItem+LTFHC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BadgedBarButtonItem+LTFHC.swift"; sourceTree = "<group>"; };
+		EF27A6801BD7EB0B00AE7874 /* ChooseLanguage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseLanguage.swift; sourceTree = "<group>"; };
+		EF27A6821BD7EB1B00AE7874 /* PatientVillage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientVillage.swift; sourceTree = "<group>"; };
+		EF95DAF21BC86CE500CE9D35 /* LTFHC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTFHC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF95DAF51BC86CE500CE9D35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF95DAF71BC86CE500CE9D35 /* LTFHCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTFHCViewController.swift; sourceTree = "<group>"; };
+		EF95DAFD1BC86CE500CE9D35 /* LTFHC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LTFHC.xcdatamodel; sourceTree = "<group>"; };
+		EF95DAFF1BC86CE500CE9D35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF95DB041BC86CE500CE9D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF95DB091BC86CE500CE9D35 /* LTFHCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTFHCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF95DB0D1BC86CE500CE9D35 /* LTFHCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTFHCTests.swift; sourceTree = "<group>"; };
+		EF95DB0F1BC86CE500CE9D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF95DB141BC86CE500CE9D35 /* LTFHCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTFHCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF95DB181BC86CE500CE9D35 /* LTFHCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTFHCUITests.swift; sourceTree = "<group>"; };
+		EF95DB1A1BC86CE500CE9D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFE284E11BEBE5E700610280 /* SelectVillage copy 2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SelectVillage copy 2.swift"; sourceTree = "<group>"; };
+		EFE284E21BEBE5E700610280 /* SelectVillage copy 3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SelectVillage copy 3.swift"; sourceTree = "<group>"; };
+		EFE284E31BEBE5E700610280 /* SelectVillage copy 4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SelectVillage copy 4.swift"; sourceTree = "<group>"; };
+		EFE284E41BEBE5E700610280 /* SelectVillage copy 5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SelectVillage copy 5.swift"; sourceTree = "<group>"; };
+		EFE284E51BEBE5E700610280 /* SelectVillage copy 6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SelectVillage copy 6.swift"; sourceTree = "<group>"; };
+		EFE284E61BEBE5E700610280 /* SelectVillage copy 7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SelectVillage copy 7.swift"; sourceTree = "<group>"; };
+		EFE284E71BEBE5E700610280 /* TestResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestResult.swift; sourceTree = "<group>"; };
+		EFE284E81BEBE5E700610280 /* OtherTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherTest.swift; sourceTree = "<group>"; };
+		EFE284E91BEBE5E700610280 /* TestDone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestDone.swift; sourceTree = "<group>"; };
+		EFE284EA1BEBE5E700610280 /* PatientWeight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientWeight.swift; sourceTree = "<group>"; };
+		EFE284EB1BEBE5E700610280 /* PatientHeight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientHeight.swift; sourceTree = "<group>"; };
+		EFE284EC1BEBE5E700610280 /* PatientAge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientAge.swift; sourceTree = "<group>"; };
+		EFE284ED1BEBE5E700610280 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		EFE284EE1BEBE5E700610280 /* ChooseGender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseGender.swift; sourceTree = "<group>"; };
+		EFE284EF1BEBE5E700610280 /* PatientName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientName.swift; sourceTree = "<group>"; };
+		EFE285011BEBEE5300610280 /* backArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backArrow.png; path = "../../../Desktop/Non-drive work/LTFHC/backArrow.png"; sourceTree = "<group>"; };
+		EFE285041BEBF3BE00610280 /* LTFHCNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTFHCNavigationBar.swift; sourceTree = "<group>"; };
+		EFE285061BEC071800610280 /* forwardArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = forwardArrow.png; path = "../../../Desktop/Non-drive work/LTFHC/forwardArrow.png"; sourceTree = "<group>"; };
+		EFE285081BED137A00610280 /* UITextField+LTFHC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+LTFHC.swift"; sourceTree = "<group>"; };
+		EFE2850A1BED1D5B00610280 /* man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = man.png; path = "../../../Desktop/Non-drive work/LTFHC/man.png"; sourceTree = "<group>"; };
+		EFE2850B1BED1D5B00610280 /* woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = woman.png; path = "../../../Desktop/Non-drive work/LTFHC/woman.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF95DAEF1BC86CE500CE9D35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF95DB061BC86CE500CE9D35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF95DB111BC86CE500CE9D35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF27A6731BD68C8500AE7874 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EF27A6711BD68C6600AE7874 /* UIButton+LTFHC.swift */,
+				EF27A67E1BD7362800AE7874 /* BadgedBarButtonItem+LTFHC.swift */,
+				EFE285081BED137A00610280 /* UITextField+LTFHC.swift */,
+			);
+			name = Extensions;
+			path = LTFHC;
+			sourceTree = "<group>";
+		};
+		EF27A6741BD68CAC00AE7874 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF95DAFC1BC86CE500CE9D35 /* LTFHC.xcdatamodeld */,
+				EF27A6781BD68DDE00AE7874 /* DataStore.swift */,
+			);
+			name = Model;
+			path = LTFHC;
+			sourceTree = "<group>";
+		};
+		EF27A6771BD68D9400AE7874 /* Rsc */ = {
+			isa = PBXGroup;
+			children = (
+				EFE285061BEC071800610280 /* forwardArrow.png */,
+				EFE2850A1BED1D5B00610280 /* man.png */,
+				EFE2850B1BED1D5B00610280 /* woman.png */,
+				EFE285011BEBEE5300610280 /* backArrow.png */,
+				EF95DAFF1BC86CE500CE9D35 /* Assets.xcassets */,
+				EF95DB041BC86CE500CE9D35 /* Info.plist */,
+			);
+			name = Rsc;
+			path = LTFHC;
+			sourceTree = "<group>";
+		};
+		EF27A67A1BD68E9F00AE7874 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF95DAF71BC86CE500CE9D35 /* LTFHCViewController.swift */,
+				EFE285001BEBE72E00610280 /* General Screens */,
+				EF27A67B1BD68EBF00AE7874 /* OPD Screens */,
+			);
+			name = Controllers;
+			path = LTFHC;
+			sourceTree = "<group>";
+		};
+		EF27A67B1BD68EBF00AE7874 /* OPD Screens */ = {
+			isa = PBXGroup;
+			children = (
+				EFE284E91BEBE5E700610280 /* TestDone.swift */,
+				EFE284E81BEBE5E700610280 /* OtherTest.swift */,
+				EFE284E71BEBE5E700610280 /* TestResult.swift */,
+				EFE284E11BEBE5E700610280 /* SelectVillage copy 2.swift */,
+				EFE284E21BEBE5E700610280 /* SelectVillage copy 3.swift */,
+				EFE284E31BEBE5E700610280 /* SelectVillage copy 4.swift */,
+				EFE284E41BEBE5E700610280 /* SelectVillage copy 5.swift */,
+				EFE284E51BEBE5E700610280 /* SelectVillage copy 6.swift */,
+				EFE284E61BEBE5E700610280 /* SelectVillage copy 7.swift */,
+			);
+			name = "OPD Screens";
+			sourceTree = "<group>";
+		};
+		EF95DAE91BC86CE500CE9D35 = {
+			isa = PBXGroup;
+			children = (
+				EF95DAF41BC86CE500CE9D35 /* Classes */,
+				EF27A67A1BD68E9F00AE7874 /* Controllers */,
+				EFE285031BEBF39900610280 /* Views */,
+				EF27A6731BD68C8500AE7874 /* Extensions */,
+				EF27A6741BD68CAC00AE7874 /* Model */,
+				EF27A6771BD68D9400AE7874 /* Rsc */,
+				EF95DB0C1BC86CE500CE9D35 /* LTFHCTests */,
+				EF95DB171BC86CE500CE9D35 /* LTFHCUITests */,
+				EF95DAF31BC86CE500CE9D35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF95DAF31BC86CE500CE9D35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF95DAF21BC86CE500CE9D35 /* LTFHC.app */,
+				EF95DB091BC86CE500CE9D35 /* LTFHCTests.xctest */,
+				EF95DB141BC86CE500CE9D35 /* LTFHCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF95DAF41BC86CE500CE9D35 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EF95DAF51BC86CE500CE9D35 /* AppDelegate.swift */,
+				EF27A6751BD68D6D00AE7874 /* Constants.swift */,
+			);
+			name = Classes;
+			path = LTFHC;
+			sourceTree = "<group>";
+		};
+		EF95DB0C1BC86CE500CE9D35 /* LTFHCTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF95DB0D1BC86CE500CE9D35 /* LTFHCTests.swift */,
+				EF95DB0F1BC86CE500CE9D35 /* Info.plist */,
+			);
+			path = LTFHCTests;
+			sourceTree = "<group>";
+		};
+		EF95DB171BC86CE500CE9D35 /* LTFHCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF95DB181BC86CE500CE9D35 /* LTFHCUITests.swift */,
+				EF95DB1A1BC86CE500CE9D35 /* Info.plist */,
+			);
+			path = LTFHCUITests;
+			sourceTree = "<group>";
+		};
+		EFE285001BEBE72E00610280 /* General Screens */ = {
+			isa = PBXGroup;
+			children = (
+				EF27A6801BD7EB0B00AE7874 /* ChooseLanguage.swift */,
+				EFE284ED1BEBE5E700610280 /* Menu.swift */,
+				EFE284EF1BEBE5E700610280 /* PatientName.swift */,
+				EFE284EE1BEBE5E700610280 /* ChooseGender.swift */,
+				EFE284EC1BEBE5E700610280 /* PatientAge.swift */,
+				EFE284EA1BEBE5E700610280 /* PatientWeight.swift */,
+				EFE284EB1BEBE5E700610280 /* PatientHeight.swift */,
+				EF27A6821BD7EB1B00AE7874 /* PatientVillage.swift */,
+			);
+			name = "General Screens";
+			sourceTree = "<group>";
+		};
+		EFE285031BEBF39900610280 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EFE285041BEBF3BE00610280 /* LTFHCNavigationBar.swift */,
+			);
+			name = Views;
+			path = LTFHC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF95DAF11BC86CE500CE9D35 /* LTFHC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF95DB1D1BC86CE500CE9D35 /* Build configuration list for PBXNativeTarget "LTFHC" */;
+			buildPhases = (
+				EF95DAEE1BC86CE500CE9D35 /* Sources */,
+				EF95DAEF1BC86CE500CE9D35 /* Frameworks */,
+				EF95DAF01BC86CE500CE9D35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LTFHC;
+			productName = LTFHC;
+			productReference = EF95DAF21BC86CE500CE9D35 /* LTFHC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF95DB081BC86CE500CE9D35 /* LTFHCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF95DB201BC86CE500CE9D35 /* Build configuration list for PBXNativeTarget "LTFHCTests" */;
+			buildPhases = (
+				EF95DB051BC86CE500CE9D35 /* Sources */,
+				EF95DB061BC86CE500CE9D35 /* Frameworks */,
+				EF95DB071BC86CE500CE9D35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF95DB0B1BC86CE500CE9D35 /* PBXTargetDependency */,
+			);
+			name = LTFHCTests;
+			productName = LTFHCTests;
+			productReference = EF95DB091BC86CE500CE9D35 /* LTFHCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF95DB131BC86CE500CE9D35 /* LTFHCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF95DB231BC86CE500CE9D35 /* Build configuration list for PBXNativeTarget "LTFHCUITests" */;
+			buildPhases = (
+				EF95DB101BC86CE500CE9D35 /* Sources */,
+				EF95DB111BC86CE500CE9D35 /* Frameworks */,
+				EF95DB121BC86CE500CE9D35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF95DB161BC86CE500CE9D35 /* PBXTargetDependency */,
+			);
+			name = LTFHCUITests;
+			productName = LTFHCUITests;
+			productReference = EF95DB141BC86CE500CE9D35 /* LTFHCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF95DAEA1BC86CE500CE9D35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = CPot;
+				TargetAttributes = {
+					EF95DAF11BC86CE500CE9D35 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					EF95DB081BC86CE500CE9D35 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = EF95DAF11BC86CE500CE9D35;
+					};
+					EF95DB131BC86CE500CE9D35 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = EF95DAF11BC86CE500CE9D35;
+					};
+				};
+			};
+			buildConfigurationList = EF95DAED1BC86CE500CE9D35 /* Build configuration list for PBXProject "LTFHC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF95DAE91BC86CE500CE9D35;
+			productRefGroup = EF95DAF31BC86CE500CE9D35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF95DAF11BC86CE500CE9D35 /* LTFHC */,
+				EF95DB081BC86CE500CE9D35 /* LTFHCTests */,
+				EF95DB131BC86CE500CE9D35 /* LTFHCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF95DAF01BC86CE500CE9D35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE285021BEBEE5300610280 /* backArrow.png in Resources */,
+				EFE2850D1BED1D5B00610280 /* woman.png in Resources */,
+				EFE285071BEC071800610280 /* forwardArrow.png in Resources */,
+				EFE2850C1BED1D5B00610280 /* man.png in Resources */,
+				EF95DB001BC86CE500CE9D35 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF95DB071BC86CE500CE9D35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF95DB121BC86CE500CE9D35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF95DAEE1BC86CE500CE9D35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF27A6761BD68D6D00AE7874 /* Constants.swift in Sources */,
+				EFE284F71BEBE5E700610280 /* OtherTest.swift in Sources */,
+				EFE284FE1BEBE5E700610280 /* PatientName.swift in Sources */,
+				EFE284F51BEBE5E700610280 /* SelectVillage copy 7.swift in Sources */,
+				EFE284F31BEBE5E700610280 /* SelectVillage copy 5.swift in Sources */,
+				EFE284F41BEBE5E700610280 /* SelectVillage copy 6.swift in Sources */,
+				EF27A6791BD68DDE00AE7874 /* DataStore.swift in Sources */,
+				EFE285091BED137A00610280 /* UITextField+LTFHC.swift in Sources */,
+				EFE284F91BEBE5E700610280 /* PatientWeight.swift in Sources */,
+				EFE284F81BEBE5E700610280 /* TestDone.swift in Sources */,
+				EFE284F01BEBE5E700610280 /* SelectVillage copy 2.swift in Sources */,
+				EF27A6831BD7EB1B00AE7874 /* PatientVillage.swift in Sources */,
+				EFE284F21BEBE5E700610280 /* SelectVillage copy 4.swift in Sources */,
+				EF27A67F1BD7362800AE7874 /* BadgedBarButtonItem+LTFHC.swift in Sources */,
+				EF95DAFE1BC86CE500CE9D35 /* LTFHC.xcdatamodeld in Sources */,
+				EF27A6811BD7EB0B00AE7874 /* ChooseLanguage.swift in Sources */,
+				EFE285051BEBF3BE00610280 /* LTFHCNavigationBar.swift in Sources */,
+				EF27A6721BD68C6600AE7874 /* UIButton+LTFHC.swift in Sources */,
+				EFE284F61BEBE5E700610280 /* TestResult.swift in Sources */,
+				EFE284FA1BEBE5E700610280 /* PatientHeight.swift in Sources */,
+				EFE284FB1BEBE5E700610280 /* PatientAge.swift in Sources */,
+				EFE284F11BEBE5E700610280 /* SelectVillage copy 3.swift in Sources */,
+				EF95DAF81BC86CE500CE9D35 /* LTFHCViewController.swift in Sources */,
+				EFE284FC1BEBE5E700610280 /* Menu.swift in Sources */,
+				EF95DAF61BC86CE500CE9D35 /* AppDelegate.swift in Sources */,
+				EFE284FD1BEBE5E700610280 /* ChooseGender.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF95DB051BC86CE500CE9D35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF95DB0E1BC86CE500CE9D35 /* LTFHCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF95DB101BC86CE500CE9D35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF95DB191BC86CE500CE9D35 /* LTFHCUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF95DB0B1BC86CE500CE9D35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF95DAF11BC86CE500CE9D35 /* LTFHC */;
+			targetProxy = EF95DB0A1BC86CE500CE9D35 /* PBXContainerItemProxy */;
+		};
+		EF95DB161BC86CE500CE9D35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF95DAF11BC86CE500CE9D35 /* LTFHC */;
+			targetProxy = EF95DB151BC86CE500CE9D35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EF95DB1B1BC86CE500CE9D35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF95DB1C1BC86CE500CE9D35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF95DB1E1BC86CE500CE9D35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LTFHC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CPot.LTFHC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF95DB1F1BC86CE500CE9D35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LTFHC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CPot.LTFHC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF95DB211BC86CE500CE9D35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LTFHCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CPot.LTFHCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LTFHC.app/LTFHC";
+			};
+			name = Debug;
+		};
+		EF95DB221BC86CE500CE9D35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LTFHCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CPot.LTFHCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LTFHC.app/LTFHC";
+			};
+			name = Release;
+		};
+		EF95DB241BC86CE500CE9D35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LTFHCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CPot.LTFHCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LTFHC;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EF95DB251BC86CE500CE9D35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LTFHCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CPot.LTFHCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LTFHC;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF95DAED1BC86CE500CE9D35 /* Build configuration list for PBXProject "LTFHC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF95DB1B1BC86CE500CE9D35 /* Debug */,
+				EF95DB1C1BC86CE500CE9D35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF95DB1D1BC86CE500CE9D35 /* Build configuration list for PBXNativeTarget "LTFHC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF95DB1E1BC86CE500CE9D35 /* Debug */,
+				EF95DB1F1BC86CE500CE9D35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF95DB201BC86CE500CE9D35 /* Build configuration list for PBXNativeTarget "LTFHCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF95DB211BC86CE500CE9D35 /* Debug */,
+				EF95DB221BC86CE500CE9D35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF95DB231BC86CE500CE9D35 /* Build configuration list for PBXNativeTarget "LTFHCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF95DB241BC86CE500CE9D35 /* Debug */,
+				EF95DB251BC86CE500CE9D35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF95DAFC1BC86CE500CE9D35 /* LTFHC.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF95DAFD1BC86CE500CE9D35 /* LTFHC.xcdatamodel */,
+			);
+			currentVersion = EF95DAFD1BC86CE500CE9D35 /* LTFHC.xcdatamodel */;
+			path = LTFHC.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EF95DAEA1BC86CE500CE9D35 /* Project object */;
+}

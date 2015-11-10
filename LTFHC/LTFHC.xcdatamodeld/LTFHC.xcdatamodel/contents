@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="8195" systemVersion="14F27" minimumToolsVersion="Automatic">
+    <entity name="Patient" representedClassName="patient" syncable="YES">
+        <attribute name="name" attributeType="String" indexed="YES" syncable="YES"/>
+        <relationship name="visitHistory" toMany="YES" minCount="1" deletionRule="Nullify" destinationEntity="Register" inverseName="visitingPatient" inverseEntity="Register" syncable="YES"/>
+    </entity>
+    <entity name="Register" representedClassName="visit" syncable="YES">
+        <attribute name="intakeType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="patientAge" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="patientName" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="patientVillage" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="visitingPatient" maxCount="1" deletionRule="Nullify" destinationEntity="Patient" inverseName="visitHistory" inverseEntity="Patient" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Patient" positionX="423" positionY="33" width="128" height="75"/>
+        <element name="Register" positionX="-63" positionY="-18" width="128" height="120"/>
+    </elements>
+</model>
