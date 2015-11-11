@@ -16,7 +16,7 @@ import UIKit
 
 
 let AppColor = UIColor(red: 0.4000, green: 0.8588, blue: 1.0000, alpha: 0.8) //App color
-let barHeight: CGFloat = 88
+var barHeight: CGFloat = 88
 
 enum intake: String { case OPD } //Put remaining intake types here
 

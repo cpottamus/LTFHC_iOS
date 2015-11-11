@@ -17,12 +17,6 @@ class ChooseGender: LTFHCViewController {
         super.viewDidLoad()
         self.title = "Select Gender"
         
-        //    let btn = UIButton()
-        //    btn.styleForApp("Text here")
-        //    btn.addTarget(self, action: "answerButtonPressed:", forControlEvents: .TouchUpInside)
-        //    btn.frame = CGRectMake(150, 44, 60, 60)
-        //    self.view.addSubview(btn)
-        
         let male: UIButton = UIButton(type: UIButtonType.Custom)
         male.titleLabel!.text = "male"
         male.setImage(UIImage(named: "man.png"), forState: UIControlState.Normal)
@@ -52,6 +46,7 @@ class ChooseGender: LTFHCViewController {
         //Add the label and the image to a view, and then place the views with spacers.
         
     }
+    
     
 }
 

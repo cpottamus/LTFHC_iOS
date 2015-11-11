@@ -17,8 +17,7 @@ class LTFHCNavigationBar: UINavigationBar {
         self.barStyle = UIBarStyle.BlackOpaque
         self.sizeThatFits(CGSizeMake(self.frame.size.width, barHeight))
         self.titleTextAttributes = [NSFontAttributeName: UIFont(name: "Helvetica", size:45)!, NSForegroundColorAttributeName : UIColor.whiteColor()]
-        self.setTitleVerticalPositionAdjustment(-10
-            , forBarMetrics: .Default)
+        self.setTitleVerticalPositionAdjustment(-5, forBarMetrics: .Default)
         
         //Remove nav bar border and shadow image that changes color of bar from pure RGBA
         self.setBackgroundImage(UIImage(), forBarPosition: .Any, barMetrics: .Default)

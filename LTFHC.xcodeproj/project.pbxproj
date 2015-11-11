@@ -13,6 +13,7 @@
 		EF27A67F1BD7362800AE7874 /* BadgedBarButtonItem+LTFHC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF27A67E1BD7362800AE7874 /* BadgedBarButtonItem+LTFHC.swift */; settings = {ASSET_TAGS = (); }; };
 		EF27A6811BD7EB0B00AE7874 /* ChooseLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF27A6801BD7EB0B00AE7874 /* ChooseLanguage.swift */; settings = {ASSET_TAGS = (); }; };
 		EF27A6831BD7EB1B00AE7874 /* PatientVillage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF27A6821BD7EB1B00AE7874 /* PatientVillage.swift */; settings = {ASSET_TAGS = (); }; };
+		EF2B1B1A1BF2E30100968F4B /* LTFHCViewStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2B1B191BF2E30100968F4B /* LTFHCViewStyling.swift */; settings = {ASSET_TAGS = (); }; };
 		EF95DAF61BC86CE500CE9D35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF95DAF51BC86CE500CE9D35 /* AppDelegate.swift */; };
 		EF95DAF81BC86CE500CE9D35 /* LTFHCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF95DAF71BC86CE500CE9D35 /* LTFHCViewController.swift */; };
 		EF95DAFE1BC86CE500CE9D35 /* LTFHC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF95DAFC1BC86CE500CE9D35 /* LTFHC.xcdatamodeld */; };
@@ -66,6 +67,7 @@
 		EF27A67E1BD7362800AE7874 /* BadgedBarButtonItem+LTFHC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BadgedBarButtonItem+LTFHC.swift"; sourceTree = "<group>"; };
 		EF27A6801BD7EB0B00AE7874 /* ChooseLanguage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseLanguage.swift; sourceTree = "<group>"; };
 		EF27A6821BD7EB1B00AE7874 /* PatientVillage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientVillage.swift; sourceTree = "<group>"; };
+		EF2B1B191BF2E30100968F4B /* LTFHCViewStyling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTFHCViewStyling.swift; sourceTree = "<group>"; };
 		EF95DAF21BC86CE500CE9D35 /* LTFHC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTFHC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF95DAF51BC86CE500CE9D35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF95DAF71BC86CE500CE9D35 /* LTFHCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTFHCViewController.swift; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				EF95DAF71BC86CE500CE9D35 /* LTFHCViewController.swift */,
+				EF2B1B191BF2E30100968F4B /* LTFHCViewStyling.swift */,
 				EFE285001BEBE72E00610280 /* General Screens */,
 				EF27A67B1BD68EBF00AE7874 /* OPD Screens */,
 			);
@@ -415,6 +418,7 @@
 				EF27A6811BD7EB0B00AE7874 /* ChooseLanguage.swift in Sources */,
 				EFE285051BEBF3BE00610280 /* LTFHCNavigationBar.swift in Sources */,
 				EF27A6721BD68C6600AE7874 /* UIButton+LTFHC.swift in Sources */,
+				EF2B1B1A1BF2E30100968F4B /* LTFHCViewStyling.swift in Sources */,
 				EFE284F61BEBE5E700610280 /* TestResult.swift in Sources */,
 				EFE284FA1BEBE5E700610280 /* PatientHeight.swift in Sources */,
 				EFE284FB1BEBE5E700610280 /* PatientAge.swift in Sources */,
