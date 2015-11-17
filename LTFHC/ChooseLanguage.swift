@@ -78,16 +78,10 @@ extension ChooseLanguage {
         let topSpacer3 = NSLayoutConstraint(item: spacer3, attribute: NSLayoutAttribute.Top, relatedBy: NSLayoutRelation.Equal, toItem: swa, attribute: NSLayoutAttribute.Bottom, multiplier: 1, constant: 0)
         let bottomMargin = NSLayoutConstraint(item: self.bottomLayoutGuide, attribute: NSLayoutAttribute.Top, relatedBy: NSLayoutRelation.Equal, toItem: spacer3, attribute: NSLayoutAttribute.Bottom, multiplier: 1, constant: 0)
         
-
         let leftAlignment = NSLayoutConstraint(item: eng, attribute: NSLayoutAttribute.Leading, relatedBy: NSLayoutRelation.Equal, toItem: self.view, attribute: NSLayoutAttribute.LeadingMargin, multiplier: 1, constant: 20)
-        
         let rightAlignment = NSLayoutConstraint(item: self.view , attribute: NSLayoutAttribute.TrailingMargin, relatedBy: NSLayoutRelation.Equal, toItem: eng, attribute: NSLayoutAttribute.Trailing, multiplier: 1, constant: 20)
-        
         let equalLeftAlignment = NSLayoutConstraint(item: eng, attribute: NSLayoutAttribute.Leading, relatedBy: NSLayoutRelation.Equal, toItem: swa, attribute: NSLayoutAttribute.Leading, multiplier: 1, constant: 0)
-        
         let sameHeight = NSLayoutConstraint(item: eng, attribute: NSLayoutAttribute.Height, relatedBy: NSLayoutRelation.Equal, toItem: swa, attribute: NSLayoutAttribute.Height, multiplier: 1, constant: 0)
-        
-        
         let equalRightAlignment = NSLayoutConstraint(item: eng, attribute: NSLayoutAttribute.Trailing, relatedBy: NSLayoutRelation.Equal, toItem: swa, attribute: NSLayoutAttribute.Trailing, multiplier: 1, constant: 0)
         
         NSLayoutConstraint.activateConstraints([leftAlignment, equalLeftAlignment, sameHeight, equalRightAlignment, rightAlignment, spacerSize, spacer2Size, spacer3Size, topMargin, topEng, topSpacer2, topSwa, topSpacer3, bottomMargin])
