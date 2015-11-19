@@ -14,8 +14,8 @@ class PatientName: LTFHCViewController {
     var fld: UITextField! = UITextField()
     
     override func viewDidLoad() {
-        answerVC = ChooseGender()
-        backVC = Menu()
+        answerVC = ChooseGender(userObject: user)
+        backVC = Menu(userObject: user)
         super.viewDidLoad()
         self.title = "Patient Name"
         self.navigationController?.navigationBarHidden = false
@@ -35,23 +35,17 @@ class PatientName: LTFHCViewController {
         let spacer: UIView! = UIView(); self.view.addSubview(spacer)
         buildConstraints(btn, obj2: viewHolder, spacer: spacer)
         
-        
     }
-    
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
         fld.becomeFirstResponder()
-        
     }
     
     //Submit patient name
-    override func answerButtonPressed(sender: UIButton
-        ) {
-            //get the text information here
-            print("Pressed")
-            print(fld.text!)
-            
+    override func answerButtonPressed(sender: UIButton) {
+        saveAttribute(fld.text!)
+        navigationController?.pushViewController(answerVC, animated: false)
     }
     
 }

@@ -12,8 +12,8 @@ import UIKit
 class TestResult: LTFHCViewController {
     
     override func viewDidLoad() {
-        answerVC = ChooseLanguage()
-        backVC = TestDone()
+        answerVC = ChooseLanguage(userObject: user)
+        backVC = TestDone(userObject: user)
         super.viewDidLoad()
         self.title = "Test Result"
         

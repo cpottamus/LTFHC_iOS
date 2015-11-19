@@ -51,7 +51,12 @@ class Menu: LTFHCViewController {
         
         switch sender.titleLabel!.text!{
             case "Enter Patient Into Register":
-                self.navigationController?.pushViewController(PatientName(), animated: false)
+                //Create user object and pass to new view controllers.
+                if user == nil {
+                    createNewUserObject()
+                }
+                self.navigationController?.pushViewController(PatientName(userObject: user), animated: false)
+                    
             case "View Register":
                 self.navigationController?.pushViewController(PatientName(), animated: false) //Update to have Register
             case "Generate Report":

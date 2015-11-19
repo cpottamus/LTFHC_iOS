@@ -12,9 +12,9 @@ import UIKit
 class TestDone: LTFHCViewController {
     
     override func viewDidLoad() {
-        answerVC = TestResult()
-        altAnswerVC = OtherTest()
-        backVC = PatientVillage()
+        answerVC = TestResult(userObject: user)
+        altAnswerVC = OtherTest(userObject: user)
+        backVC = PatientVillage(userObject: user)
         super.viewDidLoad()
         self.title = "Test Done"
     

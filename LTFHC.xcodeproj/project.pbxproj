@@ -7,40 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EF27A6721BD68C6600AE7874 /* UIButton+LTFHC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF27A6711BD68C6600AE7874 /* UIButton+LTFHC.swift */; settings = {ASSET_TAGS = (); }; };
-		EF27A6761BD68D6D00AE7874 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF27A6751BD68D6D00AE7874 /* Constants.swift */; settings = {ASSET_TAGS = (); }; };
-		EF27A6791BD68DDE00AE7874 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF27A6781BD68DDE00AE7874 /* DataStore.swift */; settings = {ASSET_TAGS = (); }; };
-		EF27A67F1BD7362800AE7874 /* BadgedBarButtonItem+LTFHC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF27A67E1BD7362800AE7874 /* BadgedBarButtonItem+LTFHC.swift */; settings = {ASSET_TAGS = (); }; };
-		EF27A6811BD7EB0B00AE7874 /* ChooseLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF27A6801BD7EB0B00AE7874 /* ChooseLanguage.swift */; settings = {ASSET_TAGS = (); }; };
-		EF27A6831BD7EB1B00AE7874 /* PatientVillage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF27A6821BD7EB1B00AE7874 /* PatientVillage.swift */; settings = {ASSET_TAGS = (); }; };
-		EF2B1B1A1BF2E30100968F4B /* LTFHCViewStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2B1B191BF2E30100968F4B /* LTFHCViewStyling.swift */; settings = {ASSET_TAGS = (); }; };
+		EF27A6721BD68C6600AE7874 /* UIButton+LTFHC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF27A6711BD68C6600AE7874 /* UIButton+LTFHC.swift */; };
+		EF27A6761BD68D6D00AE7874 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF27A6751BD68D6D00AE7874 /* Constants.swift */; };
+		EF27A6791BD68DDE00AE7874 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF27A6781BD68DDE00AE7874 /* DataStore.swift */; };
+		EF27A67F1BD7362800AE7874 /* BadgedBarButtonItem+LTFHC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF27A67E1BD7362800AE7874 /* BadgedBarButtonItem+LTFHC.swift */; };
+		EF27A6811BD7EB0B00AE7874 /* ChooseLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF27A6801BD7EB0B00AE7874 /* ChooseLanguage.swift */; };
+		EF27A6831BD7EB1B00AE7874 /* PatientVillage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF27A6821BD7EB1B00AE7874 /* PatientVillage.swift */; };
+		EF2B1B1A1BF2E30100968F4B /* LTFHCViewStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2B1B191BF2E30100968F4B /* LTFHCViewStyling.swift */; };
 		EF95DAF61BC86CE500CE9D35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF95DAF51BC86CE500CE9D35 /* AppDelegate.swift */; };
 		EF95DAF81BC86CE500CE9D35 /* LTFHCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF95DAF71BC86CE500CE9D35 /* LTFHCViewController.swift */; };
 		EF95DAFE1BC86CE500CE9D35 /* LTFHC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF95DAFC1BC86CE500CE9D35 /* LTFHC.xcdatamodeld */; };
 		EF95DB001BC86CE500CE9D35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF95DAFF1BC86CE500CE9D35 /* Assets.xcassets */; };
 		EF95DB0E1BC86CE500CE9D35 /* LTFHCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF95DB0D1BC86CE500CE9D35 /* LTFHCTests.swift */; };
 		EF95DB191BC86CE500CE9D35 /* LTFHCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF95DB181BC86CE500CE9D35 /* LTFHCUITests.swift */; };
-		EFE284F01BEBE5E700610280 /* SelectVillage copy 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284E11BEBE5E700610280 /* SelectVillage copy 2.swift */; settings = {ASSET_TAGS = (); }; };
-		EFE284F11BEBE5E700610280 /* SelectVillage copy 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284E21BEBE5E700610280 /* SelectVillage copy 3.swift */; settings = {ASSET_TAGS = (); }; };
-		EFE284F21BEBE5E700610280 /* SelectVillage copy 4.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284E31BEBE5E700610280 /* SelectVillage copy 4.swift */; settings = {ASSET_TAGS = (); }; };
-		EFE284F31BEBE5E700610280 /* SelectVillage copy 5.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284E41BEBE5E700610280 /* SelectVillage copy 5.swift */; settings = {ASSET_TAGS = (); }; };
-		EFE284F41BEBE5E700610280 /* SelectVillage copy 6.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284E51BEBE5E700610280 /* SelectVillage copy 6.swift */; settings = {ASSET_TAGS = (); }; };
-		EFE284F51BEBE5E700610280 /* SelectVillage copy 7.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284E61BEBE5E700610280 /* SelectVillage copy 7.swift */; settings = {ASSET_TAGS = (); }; };
-		EFE284F61BEBE5E700610280 /* TestResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284E71BEBE5E700610280 /* TestResult.swift */; settings = {ASSET_TAGS = (); }; };
-		EFE284F71BEBE5E700610280 /* OtherTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284E81BEBE5E700610280 /* OtherTest.swift */; settings = {ASSET_TAGS = (); }; };
-		EFE284F81BEBE5E700610280 /* TestDone.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284E91BEBE5E700610280 /* TestDone.swift */; settings = {ASSET_TAGS = (); }; };
-		EFE284F91BEBE5E700610280 /* PatientWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284EA1BEBE5E700610280 /* PatientWeight.swift */; settings = {ASSET_TAGS = (); }; };
-		EFE284FA1BEBE5E700610280 /* PatientHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284EB1BEBE5E700610280 /* PatientHeight.swift */; settings = {ASSET_TAGS = (); }; };
-		EFE284FB1BEBE5E700610280 /* PatientAge.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284EC1BEBE5E700610280 /* PatientAge.swift */; settings = {ASSET_TAGS = (); }; };
-		EFE284FC1BEBE5E700610280 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284ED1BEBE5E700610280 /* Menu.swift */; settings = {ASSET_TAGS = (); }; };
-		EFE284FD1BEBE5E700610280 /* ChooseGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284EE1BEBE5E700610280 /* ChooseGender.swift */; settings = {ASSET_TAGS = (); }; };
-		EFE284FE1BEBE5E700610280 /* PatientName.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284EF1BEBE5E700610280 /* PatientName.swift */; settings = {ASSET_TAGS = (); }; };
-		EFE285021BEBEE5300610280 /* backArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = EFE285011BEBEE5300610280 /* backArrow.png */; settings = {ASSET_TAGS = (); }; };
-		EFE285051BEBF3BE00610280 /* LTFHCNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE285041BEBF3BE00610280 /* LTFHCNavigationBar.swift */; settings = {ASSET_TAGS = (); }; };
-		EFE285071BEC071800610280 /* forwardArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = EFE285061BEC071800610280 /* forwardArrow.png */; settings = {ASSET_TAGS = (); }; };
-		EFE285091BED137A00610280 /* UITextField+LTFHC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE285081BED137A00610280 /* UITextField+LTFHC.swift */; settings = {ASSET_TAGS = (); }; };
-		EFE2850C1BED1D5B00610280 /* man.png in Resources */ = {isa = PBXBuildFile; fileRef = EFE2850A1BED1D5B00610280 /* man.png */; settings = {ASSET_TAGS = (); }; };
-		EFE2850D1BED1D5B00610280 /* woman.png in Resources */ = {isa = PBXBuildFile; fileRef = EFE2850B1BED1D5B00610280 /* woman.png */; settings = {ASSET_TAGS = (); }; };
+		EFDC94ED1BFE29B4008A5EC8 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDC94EC1BFE29B4008A5EC8 /* Patient.swift */; };
+		EFE284F01BEBE5E700610280 /* SelectVillage copy 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284E11BEBE5E700610280 /* SelectVillage copy 2.swift */; };
+		EFE284F11BEBE5E700610280 /* SelectVillage copy 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284E21BEBE5E700610280 /* SelectVillage copy 3.swift */; };
+		EFE284F21BEBE5E700610280 /* SelectVillage copy 4.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284E31BEBE5E700610280 /* SelectVillage copy 4.swift */; };
+		EFE284F31BEBE5E700610280 /* SelectVillage copy 5.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284E41BEBE5E700610280 /* SelectVillage copy 5.swift */; };
+		EFE284F41BEBE5E700610280 /* SelectVillage copy 6.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284E51BEBE5E700610280 /* SelectVillage copy 6.swift */; };
+		EFE284F51BEBE5E700610280 /* SelectVillage copy 7.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284E61BEBE5E700610280 /* SelectVillage copy 7.swift */; };
+		EFE284F61BEBE5E700610280 /* TestResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284E71BEBE5E700610280 /* TestResult.swift */; };
+		EFE284F71BEBE5E700610280 /* OtherTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284E81BEBE5E700610280 /* OtherTest.swift */; };
+		EFE284F81BEBE5E700610280 /* TestDone.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284E91BEBE5E700610280 /* TestDone.swift */; };
+		EFE284F91BEBE5E700610280 /* PatientWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284EA1BEBE5E700610280 /* PatientWeight.swift */; };
+		EFE284FA1BEBE5E700610280 /* PatientHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284EB1BEBE5E700610280 /* PatientHeight.swift */; };
+		EFE284FB1BEBE5E700610280 /* PatientAge.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284EC1BEBE5E700610280 /* PatientAge.swift */; };
+		EFE284FC1BEBE5E700610280 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284ED1BEBE5E700610280 /* Menu.swift */; };
+		EFE284FD1BEBE5E700610280 /* ChooseGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284EE1BEBE5E700610280 /* ChooseGender.swift */; };
+		EFE284FE1BEBE5E700610280 /* PatientName.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284EF1BEBE5E700610280 /* PatientName.swift */; };
+		EFE285021BEBEE5300610280 /* backArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = EFE285011BEBEE5300610280 /* backArrow.png */; };
+		EFE285051BEBF3BE00610280 /* LTFHCNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE285041BEBF3BE00610280 /* LTFHCNavigationBar.swift */; };
+		EFE285071BEC071800610280 /* forwardArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = EFE285061BEC071800610280 /* forwardArrow.png */; };
+		EFE285091BED137A00610280 /* UITextField+LTFHC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE285081BED137A00610280 /* UITextField+LTFHC.swift */; };
+		EFE2850C1BED1D5B00610280 /* man.png in Resources */ = {isa = PBXBuildFile; fileRef = EFE2850A1BED1D5B00610280 /* man.png */; };
+		EFE2850D1BED1D5B00610280 /* woman.png in Resources */ = {isa = PBXBuildFile; fileRef = EFE2850B1BED1D5B00610280 /* woman.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		EF95DB141BC86CE500CE9D35 /* LTFHCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTFHCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF95DB181BC86CE500CE9D35 /* LTFHCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTFHCUITests.swift; sourceTree = "<group>"; };
 		EF95DB1A1BC86CE500CE9D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFDC94EC1BFE29B4008A5EC8 /* Patient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
 		EFE284E11BEBE5E700610280 /* SelectVillage copy 2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SelectVillage copy 2.swift"; sourceTree = "<group>"; };
 		EFE284E21BEBE5E700610280 /* SelectVillage copy 3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SelectVillage copy 3.swift"; sourceTree = "<group>"; };
 		EFE284E31BEBE5E700610280 /* SelectVillage copy 4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SelectVillage copy 4.swift"; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 			children = (
 				EF95DAFC1BC86CE500CE9D35 /* LTFHC.xcdatamodeld */,
 				EF27A6781BD68DDE00AE7874 /* DataStore.swift */,
+				EFDC94EC1BFE29B4008A5EC8 /* Patient.swift */,
 			);
 			name = Model;
 			path = LTFHC;
@@ -425,6 +428,7 @@
 				EFE284F11BEBE5E700610280 /* SelectVillage copy 3.swift in Sources */,
 				EF95DAF81BC86CE500CE9D35 /* LTFHCViewController.swift in Sources */,
 				EFE284FC1BEBE5E700610280 /* Menu.swift in Sources */,
+				EFDC94ED1BFE29B4008A5EC8 /* Patient.swift in Sources */,
 				EF95DAF61BC86CE500CE9D35 /* AppDelegate.swift in Sources */,
 				EFE284FD1BEBE5E700610280 /* ChooseGender.swift in Sources */,
 			);

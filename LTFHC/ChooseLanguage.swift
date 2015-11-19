@@ -48,7 +48,7 @@ class ChooseLanguage: LTFHCViewController {
     
     override func answerButtonPressed(sender: UIButton) {
         language = sender.titleLabel!.text!
-        super.answerButtonPressed(sender)
+        navigationController?.pushViewController(answerVC, animated: false)
     }
     
 }

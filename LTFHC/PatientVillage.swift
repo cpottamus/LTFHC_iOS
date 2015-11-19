@@ -12,8 +12,8 @@ import UIKit
 class PatientVillage: LTFHCViewController {
     
     override func viewDidLoad() {
-        answerVC = TestDone()
-        backVC = PatientHeight()
+        answerVC = TestDone(userObject: user)
+        backVC = PatientHeight(userObject: user)
         super.viewDidLoad()
         self.title = "Patient Village"
         

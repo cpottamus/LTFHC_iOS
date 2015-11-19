@@ -12,8 +12,8 @@ import UIKit
 class PatientWeight: LTFHCViewController {
     
     override func viewDidLoad() {
-        answerVC = PatientHeight()
-        backVC = PatientAge()
+        answerVC = PatientHeight(userObject: user)
+        backVC = PatientAge(userObject: user)
         super.viewDidLoad()
         self.title = "Patient Weight"
         

@@ -12,8 +12,8 @@ import UIKit
 class OtherTest: LTFHCViewController {
     
     override func viewDidLoad() {
-        answerVC = TestResult()
-        backVC = TestDone()
+        answerVC = TestResult(userObject: user)
+        backVC = TestDone(userObject: user)
         super.viewDidLoad()
         self.title = "Test Done"
     

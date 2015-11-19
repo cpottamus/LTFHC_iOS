@@ -14,6 +14,7 @@ If possible, we should do data management here as well, passing things off to Da
 ================================================================================================*/
 
 import UIKit
+import CoreData
 
 class LTFHCViewController: UIViewController, UINavigationControllerDelegate {
     
@@ -25,8 +26,18 @@ class LTFHCViewController: UIViewController, UINavigationControllerDelegate {
     var altAnswerVC: UIViewController!
     var backVC: UIViewController!
     
+    //Record
+    var user: NSManagedObject!
+    
+    convenience init(userObject: NSManagedObject!) {
+        self.init()
+        user = userObject
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //Style Navigation Bar//
         
         //Set Constants
         barHeight = self.view.frame.height * 0.115
@@ -72,25 +83,17 @@ class LTFHCViewController: UIViewController, UINavigationControllerDelegate {
 extension LTFHCViewController{
     
     func answerButtonPressed(sender: UIButton){
-        //key is assigned based off of navTitle
-        //value is sender.         if let text = sender!.titleLabel?.text
-        print(sender.titleLabel!.text!)
+        saveAttribute(sender.titleLabel?.text)
         navigationController?.pushViewController(answerVC, animated: false)
-        
-        
-        //        var dbField = getEntityKey(self.title!)
-        //Call the context and the datastore stuff here, save the piece.
         
     }
     
-    func altAnswerButtonPressed(sender: UIButton){
-        //key is assigned based off of navTitle
-        //value is sender.         if let text = sender.titleLabel?.text
-        print(sender.titleLabel!.text!)
-        navigationController?.pushViewController(answerVC, animated: false)
-    }
+//    func altAnswerButtonPressed(sender: UIButton){
+//        navigationController?.pushViewController(answerVC, animated: false)
+//    }
     
     func nextButtonPressed(sender: UIButton){
+        saveAttribute("")
         navigationController?.pushViewController(answerVC, animated: false)
     }
     
@@ -98,14 +101,51 @@ extension LTFHCViewController{
         navigationController?.popViewControllerAnimated(false)
     }
     
-    func getEntityKey(title: String) -> String {
+    func saveAttribute(fieldValueString: String!) {
+        var fieldKey: String!
+        var type: String = "String"
         
         //Can I abstract this away?
-        switch title {
-        case "Patient Village": return "patientVillage"
-            //Add additional database fields
-        default: return "database field not found"
+        //TODO Replace cases with variables.
+        switch self.title! {
+        case "Patient Name": fieldKey = "patientName"
+        case "Select Gender": fieldKey =  "patientGender"
+        case "Patient Age": fieldKey =  "patientAge"; type = "Integer";
+        case "Patient Weight": fieldKey =  "patientWeight"; type = "Integer";
+        case "Patient Height": fieldKey =  "patientHeight"; type = "Integer";
+        case "Patient Village": fieldKey =  "patientVillage"
+        case "Test Done": fieldKey =  "testDone"
+        case "Test Result": fieldKey =  "testResult"
+        case "Diagnosis": fieldKey =  "diagnosis"
+        case "Treatment Done": fieldKey =  "treatmentDone"
+        case "Route": fieldKey =  "treatmentRoute"
+        case "Dose Given": fieldKey =  "doseGiven"; type = "Integer";
+        case "Result": fieldKey =  "visitResult"
+        case "Comments": fieldKey =  "comments"
+        case "Comments (optional)": fieldKey = "additionalComments"
+        case "Choose Language": fieldKey = "visitLanguage"
+        default: print("Fatal Error: DB not found")
         }
+
+        print("Updated \(fieldKey)")
+        if type == "String" {
+            user.setValue(fieldValueString, forKey: fieldKey)
+        } else if type == "Integer" {
+            //cast as integer and add to object
+            user.setValue(Int(fieldValueString), forKey: fieldKey)
+        }
+        
+        //Save Context
+        do {
+            try DataStore.instance.privateContext.save()
+        } catch {
+            fatalError("Failure to save context: \(error)")
+        }
+    }
+    
+    func createNewUserObject() {
+        user = NSEntityDescription.insertNewObjectForEntityForName("Register", inManagedObjectContext: DataStore.instance.privateContext)
+        print("New User Record Created")
     }
 }
 

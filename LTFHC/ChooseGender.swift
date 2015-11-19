@@ -12,8 +12,8 @@ import UIKit
 class ChooseGender: LTFHCViewController {
     
     override func viewDidLoad() {
-        answerVC = PatientAge()
-        backVC = PatientName()
+        answerVC = PatientAge(userObject: user)
+        backVC = PatientName(userObject: user)
         super.viewDidLoad()
         self.title = "Select Gender"
         let labelFontSize = self.view.frame.height * 0.05
@@ -23,30 +23,24 @@ class ChooseGender: LTFHCViewController {
         maleImg.titleLabel?.adjustsFontSizeToFitWidth = true
         maleImg.setImage(UIImage(named: "man.png"), forState: UIControlState.Normal)
         maleImg.addTarget(self, action: "answerButtonPressed:", forControlEvents: UIControlEvents.TouchUpInside)
-//        male.frame = CGRectMake(639, 164, 219, 508)
-//        self.view.addSubview(male)
         
         let maleLabel = UILabel()
         maleLabel.text = "Male"
         maleLabel.font = UIFont(name: "Helvetica", size: labelFontSize)
         maleLabel.textAlignment = NSTextAlignment.Center
         maleLabel.textColor = UIColor.blackColor()
-//        self.view.addSubview(maleLabel)
         
         let femaleImg: UIButton = UIButton(type: UIButtonType.Custom)
         femaleImg.titleLabel!.text = "female"
         femaleImg.titleLabel?.adjustsFontSizeToFitWidth = true
         femaleImg.setImage(UIImage(named: "woman.png"), forState: UIControlState.Normal)
         femaleImg.addTarget(self, action: "answerButtonPressed:", forControlEvents: UIControlEvents.TouchUpInside)
-//        female.frame = CGRectMake(164, 164, 219, 508)
-//        self.view.addSubview(female)
         
         let femaleLabel = UILabel()
         femaleLabel.text = "Female"
         femaleLabel.font = UIFont(name: "Helvetica", size: labelFontSize)
         femaleLabel.textAlignment = NSTextAlignment.Center
         femaleLabel.textColor = UIColor.blackColor()
-//        self.view.addSubview(femaleLabel)
         
         //Add the label and the image to a view, and then place the views with spacers.
         let maleView: UIView! = UIView()
