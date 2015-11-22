@@ -20,11 +20,13 @@ class LTFHCViewController: UIViewController, UINavigationControllerDelegate {
     
     //Declare Class-level variables for use.
     var buttonFontHeight: CGFloat!
+    var errorMsg: String!
     
     //ViewControllers for future answers
     var answerVC: UIViewController!
     var altAnswerVC: UIViewController!
     var backVC: UIViewController!
+    
     
     //Record
     var user: NSManagedObject!
@@ -51,7 +53,7 @@ class LTFHCViewController: UIViewController, UINavigationControllerDelegate {
         //Left Bar Button
         let frame = CGRectMake(0,0, self.view.frame.height * 0.13, self.view.frame.height * 0.076)
         let btn: UIButton = UIButton(type: UIButtonType.Custom)
-        btn.setImage(UIImage(named: "backArrow.png"), forState: UIControlState.Normal)
+        btn.setImage(UIImage(named: "pizzaman2.jpg"), forState: UIControlState.Normal)
         btn.addTarget(self, action: "backButtonPressed:", forControlEvents: UIControlEvents.TouchUpInside)
         btn.frame = frame
         let lftBarBtn: UIBarButtonItem = UIBarButtonItem(customView: btn)
@@ -59,14 +61,14 @@ class LTFHCViewController: UIViewController, UINavigationControllerDelegate {
         
         //Right Bar Button
         let btn2: UIButton = UIButton(type: UIButtonType.Custom)
-        btn2.setImage(UIImage(named: "forwardArrow.png"), forState: UIControlState.Normal)
+        btn2.setImage(UIImage(named: "pizzaman2.jpg"), forState: UIControlState.Normal)
         btn2.addTarget(self, action: "nextButtonPressed:", forControlEvents: UIControlEvents.TouchUpInside)
         btn2.frame = frame
         let rghtBarBtn: UIBarButtonItem = UIBarButtonItem(customView: btn2)
         navigationItem.rightBarButtonItem = rghtBarBtn
         
     }
-    
+
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         self.navigationController?.navigationBarHidden = false
@@ -127,7 +129,6 @@ extension LTFHCViewController{
         default: print("Fatal Error: DB not found")
         }
 
-        print("Updated \(fieldKey)")
         if type == "String" {
             user.setValue(fieldValueString, forKey: fieldKey)
         } else if type == "Integer" {
@@ -139,6 +140,8 @@ extension LTFHCViewController{
         do {
             try DataStore.instance.privateContext.save()
         } catch {
+            
+            //Assign a constant error here to alert the user that they need to try again with a valid input. Handle the error with the custom message accordingly.
             fatalError("Failure to save context: \(error)")
         }
     }

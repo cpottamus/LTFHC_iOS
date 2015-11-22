@@ -18,6 +18,7 @@ class PatientName: LTFHCViewController {
         backVC = Menu(userObject: user)
         super.viewDidLoad()
         self.title = "Patient Name"
+        errorMsg = "Please enter a valid patient name"
         self.navigationController?.navigationBarHidden = false
         
         
@@ -30,6 +31,7 @@ class PatientName: LTFHCViewController {
         //Text with Dashed Line
         let viewHolder: UIView! = UIView()
         self.view.addSubview(viewHolder)
+        fld.placeholder = "Enter Patient Name"
         drawDashedLineWithTextField(viewHolder, fld: fld)
         
         let spacer: UIView! = UIView(); self.view.addSubview(spacer)
