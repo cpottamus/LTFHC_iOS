@@ -21,6 +21,10 @@
 		EF95DB0E1BC86CE500CE9D35 /* LTFHCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF95DB0D1BC86CE500CE9D35 /* LTFHCTests.swift */; };
 		EF95DB191BC86CE500CE9D35 /* LTFHCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF95DB181BC86CE500CE9D35 /* LTFHCUITests.swift */; };
 		EFDC94ED1BFE29B4008A5EC8 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDC94EC1BFE29B4008A5EC8 /* Patient.swift */; };
+		EFDC94F21C03DB38008A5EC8 /* forwardArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDC94EE1C03DB38008A5EC8 /* forwardArrow.png */; };
+		EFDC94F31C03DB38008A5EC8 /* man.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDC94EF1C03DB38008A5EC8 /* man.png */; };
+		EFDC94F41C03DB38008A5EC8 /* woman.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDC94F01C03DB38008A5EC8 /* woman.png */; };
+		EFDC94F51C03DB38008A5EC8 /* backArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDC94F11C03DB38008A5EC8 /* backArrow.png */; };
 		EFE284F01BEBE5E700610280 /* SelectVillage copy 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284E11BEBE5E700610280 /* SelectVillage copy 2.swift */; };
 		EFE284F11BEBE5E700610280 /* SelectVillage copy 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284E21BEBE5E700610280 /* SelectVillage copy 3.swift */; };
 		EFE284F21BEBE5E700610280 /* SelectVillage copy 4.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284E31BEBE5E700610280 /* SelectVillage copy 4.swift */; };
@@ -36,12 +40,8 @@
 		EFE284FC1BEBE5E700610280 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284ED1BEBE5E700610280 /* Menu.swift */; };
 		EFE284FD1BEBE5E700610280 /* ChooseGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284EE1BEBE5E700610280 /* ChooseGender.swift */; };
 		EFE284FE1BEBE5E700610280 /* PatientName.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE284EF1BEBE5E700610280 /* PatientName.swift */; };
-		EFE285021BEBEE5300610280 /* backArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = EFE285011BEBEE5300610280 /* backArrow.png */; };
 		EFE285051BEBF3BE00610280 /* LTFHCNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE285041BEBF3BE00610280 /* LTFHCNavigationBar.swift */; };
-		EFE285071BEC071800610280 /* forwardArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = EFE285061BEC071800610280 /* forwardArrow.png */; };
 		EFE285091BED137A00610280 /* UITextField+LTFHC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE285081BED137A00610280 /* UITextField+LTFHC.swift */; };
-		EFE2850C1BED1D5B00610280 /* man.png in Resources */ = {isa = PBXBuildFile; fileRef = EFE2850A1BED1D5B00610280 /* man.png */; };
-		EFE2850D1BED1D5B00610280 /* woman.png in Resources */ = {isa = PBXBuildFile; fileRef = EFE2850B1BED1D5B00610280 /* woman.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +82,10 @@
 		EF95DB181BC86CE500CE9D35 /* LTFHCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTFHCUITests.swift; sourceTree = "<group>"; };
 		EF95DB1A1BC86CE500CE9D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFDC94EC1BFE29B4008A5EC8 /* Patient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		EFDC94EE1C03DB38008A5EC8 /* forwardArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = forwardArrow.png; path = Assets.xcassets/forwardArrow.png; sourceTree = "<group>"; };
+		EFDC94EF1C03DB38008A5EC8 /* man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = man.png; path = Assets.xcassets/man.png; sourceTree = "<group>"; };
+		EFDC94F01C03DB38008A5EC8 /* woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = woman.png; path = Assets.xcassets/woman.png; sourceTree = "<group>"; };
+		EFDC94F11C03DB38008A5EC8 /* backArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backArrow.png; path = Assets.xcassets/backArrow.png; sourceTree = "<group>"; };
 		EFE284E11BEBE5E700610280 /* SelectVillage copy 2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SelectVillage copy 2.swift"; sourceTree = "<group>"; };
 		EFE284E21BEBE5E700610280 /* SelectVillage copy 3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SelectVillage copy 3.swift"; sourceTree = "<group>"; };
 		EFE284E31BEBE5E700610280 /* SelectVillage copy 4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SelectVillage copy 4.swift"; sourceTree = "<group>"; };
@@ -97,12 +101,8 @@
 		EFE284ED1BEBE5E700610280 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		EFE284EE1BEBE5E700610280 /* ChooseGender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseGender.swift; sourceTree = "<group>"; };
 		EFE284EF1BEBE5E700610280 /* PatientName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientName.swift; sourceTree = "<group>"; };
-		EFE285011BEBEE5300610280 /* backArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backArrow.png; path = "../../../Desktop/Non-drive work/LTFHC/backArrow.png"; sourceTree = "<group>"; };
 		EFE285041BEBF3BE00610280 /* LTFHCNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTFHCNavigationBar.swift; sourceTree = "<group>"; };
-		EFE285061BEC071800610280 /* forwardArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = forwardArrow.png; path = "../../../Desktop/Non-drive work/LTFHC/forwardArrow.png"; sourceTree = "<group>"; };
 		EFE285081BED137A00610280 /* UITextField+LTFHC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+LTFHC.swift"; sourceTree = "<group>"; };
-		EFE2850A1BED1D5B00610280 /* man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = man.png; path = "../../../Desktop/Non-drive work/LTFHC/man.png"; sourceTree = "<group>"; };
-		EFE2850B1BED1D5B00610280 /* woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = woman.png; path = "../../../Desktop/Non-drive work/LTFHC/woman.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,11 +155,11 @@
 		EF27A6771BD68D9400AE7874 /* Rsc */ = {
 			isa = PBXGroup;
 			children = (
-				EFE285061BEC071800610280 /* forwardArrow.png */,
-				EFE2850A1BED1D5B00610280 /* man.png */,
-				EFE2850B1BED1D5B00610280 /* woman.png */,
-				EFE285011BEBEE5300610280 /* backArrow.png */,
 				EF95DAFF1BC86CE500CE9D35 /* Assets.xcassets */,
+				EFDC94EE1C03DB38008A5EC8 /* forwardArrow.png */,
+				EFDC94EF1C03DB38008A5EC8 /* man.png */,
+				EFDC94F01C03DB38008A5EC8 /* woman.png */,
+				EFDC94F11C03DB38008A5EC8 /* backArrow.png */,
 				EF95DB041BC86CE500CE9D35 /* Info.plist */,
 			);
 			name = Rsc;
@@ -374,11 +374,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFE285021BEBEE5300610280 /* backArrow.png in Resources */,
-				EFE2850D1BED1D5B00610280 /* woman.png in Resources */,
-				EFE285071BEC071800610280 /* forwardArrow.png in Resources */,
-				EFE2850C1BED1D5B00610280 /* man.png in Resources */,
+				EFDC94F51C03DB38008A5EC8 /* backArrow.png in Resources */,
+				EFDC94F31C03DB38008A5EC8 /* man.png in Resources */,
 				EF95DB001BC86CE500CE9D35 /* Assets.xcassets in Resources */,
+				EFDC94F41C03DB38008A5EC8 /* woman.png in Resources */,
+				EFDC94F21C03DB38008A5EC8 /* forwardArrow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
