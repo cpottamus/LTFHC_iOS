@@ -21,7 +21,7 @@ class ChooseGender: LTFHCViewController {
         let maleImg: UIButton = UIButton(type: UIButtonType.Custom)
         maleImg.titleLabel!.text = "male"
         maleImg.titleLabel?.adjustsFontSizeToFitWidth = true
-        maleImg.setImage(UIImage(named: "man.png"), forState: UIControlState.Normal)
+        maleImg.setImage(UIImage(named: "Assets/man.png"), forState: UIControlState.Normal)
         maleImg.addTarget(self, action: "answerButtonPressed:", forControlEvents: UIControlEvents.TouchUpInside)
         
         let maleLabel = UILabel()
@@ -33,7 +33,7 @@ class ChooseGender: LTFHCViewController {
         let femaleImg: UIButton = UIButton(type: UIButtonType.Custom)
         femaleImg.titleLabel!.text = "female"
         femaleImg.titleLabel?.adjustsFontSizeToFitWidth = true
-        femaleImg.setImage(UIImage(named: "woman.png"), forState: UIControlState.Normal)
+        femaleImg.setImage(UIImage(named: "Assets/gwoman.png"), forState: UIControlState.Normal)
         femaleImg.addTarget(self, action: "answerButtonPressed:", forControlEvents: UIControlEvents.TouchUpInside)
         
         let femaleLabel = UILabel()

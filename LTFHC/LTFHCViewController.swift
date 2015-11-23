@@ -51,7 +51,7 @@ class LTFHCViewController: UIViewController, UINavigationControllerDelegate {
         //Left Bar Button
         let frame = CGRectMake(0,0, self.view.frame.height * 0.13, self.view.frame.height * 0.076)
         let btn: UIButton = UIButton(type: UIButtonType.Custom)
-        btn.setImage(UIImage(named: "backArrow.png"), forState: UIControlState.Normal)
+        btn.setImage(UIImage(named: "Assets/backArrow.png"), forState: UIControlState.Normal)
         btn.addTarget(self, action: "backButtonPressed:", forControlEvents: UIControlEvents.TouchUpInside)
         btn.frame = frame
         let lftBarBtn: UIBarButtonItem = UIBarButtonItem(customView: btn)
@@ -59,7 +59,7 @@ class LTFHCViewController: UIViewController, UINavigationControllerDelegate {
         
         //Right Bar Button
         let btn2: UIButton = UIButton(type: UIButtonType.Custom)
-        btn2.setImage(UIImage(named: "forwardArrow.png"), forState: UIControlState.Normal)
+        btn2.setImage(UIImage(named: "Assets/forwardArrow.png"), forState: UIControlState.Normal)
         btn2.addTarget(self, action: "nextButtonPressed:", forControlEvents: UIControlEvents.TouchUpInside)
         btn2.frame = frame
         let rghtBarBtn: UIBarButtonItem = UIBarButtonItem(customView: btn2)
